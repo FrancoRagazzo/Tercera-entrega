@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 300px){
+body{
+    background-color: beige;
+    flex-wrap: wrap;
+    background-position: center center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+   
+}
+}
+
+header{
+    display: flex;
+    min-height: 155px;
+    margin-top: auto;
+    background-color: rgb(107, 30, 30);
+    align-items: center;
+    padding: 10px;
+    font-family:'Open Sans', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0 px;
+    }
+}
+.equipamiento-titulo{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    background-color: beige;
+    font-size: clamp(2em, 2vw, 5em);
+    text-align: left;
+    padding: 2%;
+    margin-right: 50%;
+    color: black;
+    text-decoration: underline;
+}
+.equipamiento-nivel{
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    background-color: beige;
+    font-size: clamp(2em, 1vw, 5em);
+    text-align: left;
+    padding: 2%;
+    margin-right: 50%;
+    color: black;
+}
+
+.personal-titulo{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    background-color: beige;
+    font-size: clamp(2em, 2vw, 5em);
+    text-align: right;
+    padding: 2%;
+    margin-left: 50%;
+    color: black;
+    text-decoration: underline;
+}
+
+.personal-capacitado{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    background-color: beige;
+    font-size: clamp(2em, 1vw, 5em);
+    text-align: right;
+    padding: 2%;
+    margin-left: 50%;
+    color: black;
+}
+.nombre_empresa{
+
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-style: inherit;
+    
+}
+.presentacion{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    background-color: beige;
+    font-size: clamp(2em, 1vw, 5em);
+    text-align: left;
+    padding: 2%;
+    color: black;
+}
+.frente_pochy{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    background-color: beige;
+    font-size: clamp(2em, 1vw, 5em);
+    text-align: left;
+    padding: 2%;
+    color: black;
+}
+.img-frente{
+    width: 100%;
+    border-radius:15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.info_arenado{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    background-color: beige;
+    font-size: clamp(2em, 1vw, 5em);
+    text-align: left;
+    padding: 2%;
+    color: black;
+}
+.img_arenado{
+width: 75vw;
+max-width: 1000px;
+min-width: 320px;
+margin: auto;
+}
+.img-arena{
+    width: 100%;
+    border-radius:15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.formulario{
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 5%;
+    width: 30%;
+    background-color: beige;
+}
+.mapa_direccion{
+    display: inline-block;
+    margin-right: 10%;
+    padding: 5%;
+}
+footer{
+    font-family: 'Quicksand', sans-serif;
+   color: white;
+   margin-top: 5%;
+}
+.slide{
+    margin-top: 10px;
+    
+
+}
+
+.slide img{
+    height: 70vh;
+}
+.navbar{
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    border-radius: 10vh;
+    border-color: gray;
+    color: gray;
+}
